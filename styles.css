@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 300px; 
+  z-index: 1;
+}
+
+.input-output-section {
+  position: fixed;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  width: 500px; 
+  background: rgba(255, 255, 255, 0.95); 
+  padding: 20px;
+  overflow-y: auto; 
+  z-index: 2;
+  box-sizing: border-box; 
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-select, .form-control {
+  margin-bottom: 10px; 
+}
+
+.btn-primary {
+  display: block; 
+  width: 100%;
+  margin-top: 10px;
+}
+
+.output-section {
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 4px; 
+  padding: 15px; 
+  margin-top: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  max-width: 500px;
+  box-sizing: border-box; 
+}
+
+.output-section h4 {
+  color: #333;
+  margin-bottom: 10px; 
+}
+
+.output-section p {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  display: none; 
+}
